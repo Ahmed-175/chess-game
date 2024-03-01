@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #101010;
+    }
+    body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    }
+    .container{
+    width: 828px;
+    height: 828px;
+    background-color: aliceblue;
+    gap: 0;
+    backdrop-filter: blur(repeat , 2ft);
+    border: 2px solid brown;
+    }
+    .w{
+    background-color: rgb(123, 117, 112);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+ 
+    }
+    .b{
+    background-color:rgb(26, 26, 33);
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+
+}
+.img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: transparent;
+    cursor:pointer;
+    cursor: move;
+}
+
+
+
+
+
+
+
+
+
+
+
